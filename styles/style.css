@@ -53,6 +53,7 @@ body{
 .header-top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header-nav-logo{
     display: flex;
@@ -64,9 +65,6 @@ body{
     max-height: 58px;
 }
 
-html {
-    overflow-x: hidden;
-  }
   
   /* basic styles for the header component */
   nav {
@@ -96,6 +94,10 @@ html {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+  }
+  .navMenu li a:hover{
+    color: var(--orange);
+    transition: all .3s;
   }
   
   /* Styles for the hamburger menu icon */
@@ -615,7 +617,7 @@ html {
 .footer{
     max-width: 1170px;
     margin: 0 auto;
-    padding: 110px 0px;
+    padding: 50px 0px;
 }
 .footer-top{
     display: flex;
