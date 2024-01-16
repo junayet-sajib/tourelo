@@ -35,6 +35,9 @@
     font-weight: 800;
     color: var(--dark);
 }
+html {
+    overflow-x: hidden !important;
+  }
 body{
     padding: 0px 30px;
 }
@@ -61,28 +64,6 @@ body{
     max-height: 58px;
 }
 
-/* .navbar ul{
-    display: flex;
-    gap: 30px;
-}
-.navbar ul li{
-    list-style: none;
-}
-
-.navbar ul li a{
-    color:  #424247;
-    font-size: 18px;
-    font-weight: 400;
-}
-a.active, a.active:hover{
-    color: var(--orange);
-}
-.navbar ul li a:hover{
-    color: var(--orange);
-} */
-
-/* Responsive Nav */
-/* Hide the menu to the side on mobile and not allow scrolling to the side */
 html {
     overflow-x: hidden;
   }
@@ -199,7 +180,16 @@ html {
     font-weight: 700;
    
 }
-
+/* .option-arow{
+    width: 20px;
+    height: 100%;
+    position: absolute ;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF5400;
+} */
 .hero-btn i{
     margin-right: 5px;
 }
@@ -578,7 +568,6 @@ html {
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     width: 100%;
-    width: calc(100% - 40px);
     margin-top: 24px;
 }
 .newsletter-form input[type=submit]{
@@ -609,8 +598,8 @@ html {
     border-radius: 16px;
     transform: rotate(-19.60deg);
     position: absolute;
-    right: 0px;
-    bottom: 50px;
+    right: 7px;
+    bottom: 54px;
 }
 
 .newsletter-right-inner-content h4{
@@ -795,12 +784,23 @@ html {
     .team-section{
         padding-top: 50px;
     }
+    .our-popular-tours-right {
+        margin-top: 40px;
+    }
+    .our-popular-tours-bottom-desc{
+        padding-top: 16px;
+        padding-bottom: 20px;
+    }
 }
 
  
 @media screen and (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+      }
     #hamburger {
       display: block;
+      margin-top: 10px;
     }
   
     .navMenu {
