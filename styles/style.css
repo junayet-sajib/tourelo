@@ -528,7 +528,7 @@ html {
 
 /* Start Team */
 .team-section{
-    padding: 100px 0px;
+    padding: 100px 0px 0px 0px;
     text-align: center;
 }
 .team-items {
@@ -791,6 +791,9 @@ html {
     .deal-price{
         font-size: 16px;
        
+    }
+    .team-section{
+        padding-top: 50px;
     }
 }
 
